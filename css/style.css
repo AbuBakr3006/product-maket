@@ -1,0 +1,166 @@
+/* .modal{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    background-color: blue;
+    position: absolute;
+    top: -100%;
+    transition: all 0.4s ease;
+}
+
+.show{
+    top: 50px;
+    background-color: brown;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+
+.btn{
+    border: none;
+}
+
+#close{
+    border: none;
+} */
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color--white);
+}
+
+:root{
+    --color--title: #22343D;
+    --color--logo: #173A56;
+    --color--link: #02897A;
+    --color--white: #fff;
+    --color--border: #bcd0e5;
+}
+
+.dark{
+    --color--title: #fff;
+    --color--logo: #fff;
+    --color--link: #02897A;
+    --color--white: #22343D;
+    --color--border: #bcd0e5;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header__logo {
+    margin-right: 16px;
+}
+
+.header__logo-text {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: var(--color--logo);
+}
+
+.header__list {
+    list-style: none;
+}
+
+.item {
+    margin-right: 24px;
+    color: var(--color--title);
+}
+
+.link {
+    margin-right: 24px;
+    padding: 10px 23px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color--title);
+    border-radius: 5px;
+    border: 1px solid var(--color--border);
+}
+
+.links {
+    margin-right: 24px;
+    padding: 10px 23px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--color--link);
+}
+
+.btn {
+    border: none;
+    background-color: var(--color--white);
+}
+
+.section {
+    padding: 25px 0;
+}
+
+.hero__title {
+    width: 400px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--color--title);
+    margin-bottom: 15px;
+}
+
+.hero__text {
+    width: 458px;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color--title);
+    margin-bottom: 45px;
+}
+
+.hero__link {
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 15px 41px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background-color: var(--color--link);
+    border-radius: 4px;
+}
+
+
+
+.bx-play {
+    font-size: 35px;
+    color: var(--color--link);
+}
+
+.hero__links {
+    text-decoration: none;
+    align-items: center;
+}
+
+.hero__links span {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: var(--color--link);
+}
